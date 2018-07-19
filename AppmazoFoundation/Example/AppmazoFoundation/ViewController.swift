@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  AppmazoFoundation
 //
-//  Created by nitwitstudios on 07/19/2018.
-//  Copyright (c) 2018 nitwitstudios. All rights reserved.
+//  Created by Appmazo on 07/19/2018.
+//  Copyright (c) 2018 Appmazo. All rights reserved.
 //
 
 import UIKit

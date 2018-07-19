@@ -1,9 +1,9 @@
 # AppmazoFoundation
 
-[![CI Status](https://img.shields.io/travis/nitwitstudios/AppmazoFoundation.svg?style=flat)](https://travis-ci.org/nitwitstudios/AppmazoFoundation)
-[![Version](https://img.shields.io/cocoapods/v/AppmazoFoundation.svg?style=flat)](https://cocoapods.org/pods/AppmazoFoundation)
-[![License](https://img.shields.io/cocoapods/l/AppmazoFoundation.svg?style=flat)](https://cocoapods.org/pods/AppmazoFoundation)
-[![Platform](https://img.shields.io/cocoapods/p/AppmazoFoundation.svg?style=flat)](https://cocoapods.org/pods/AppmazoFoundation)
+[![Build Status](https://travis-ci.com/Appmazo/AppmazoFoundation.svg?style=flat)](https://travis-ci.com/Appmazo/AppmazoFoundation)
+[![Version](https://img.shields.io/cocoapods/v/AppmazoFoundation.svg?style=flat)](http://cocoapods.org/pods/AppmazoFoundation.svg)
+[![License](https://img.shields.io/cocoapods/l/AppmazoFoundation.svg?style=flat)](http://cocoapods.org/pods/AppmazoFoundation.svg)
+[![Platform](https://img.shields.io/cocoapods/p/AppmazoFoundation.svg?style=flat)](http://cocoapods.org/pods/AppmazoFoundation.svg)
 
 ## Example
 
@@ -22,7 +22,7 @@ pod 'AppmazoFoundation'
 
 ## Author
 
-nitwitstudios, james.hickman@nitwitstudios.com
+Appmazo, jhickman@appmazo.com
 
 ## License
 
