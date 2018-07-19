@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIScrollView {
+public extension UIScrollView {
     private struct Key {
         static var keyboardObserver = "keyboardObserver"
     }

@@ -87,4 +87,21 @@ public extension Date {
         
         return newDate
     }
+    
+    /// Convert Date to pretty string (Jan 1, 1970)
+    public func prettyStringFromDate() -> String {
+        guard let daysFromNow = (Calendar.current as NSCalendar).components(.day, from: Date(), to: self, options: []).day else {
+            return ""
+        }
+        
+        let dateFormatter = DateFormatter()
+        if daysFromNow == 0 { // Today
+            dateFormatter.dateFormat = "h:mm a"
+        }
+        else {
+            dateFormatter.dateFormat = "MMM d, YYYY"
+        }
+        
+        return dateFormatter.string(from: self)
+    }
 }

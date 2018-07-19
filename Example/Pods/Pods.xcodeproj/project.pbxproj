@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1F2388210135EF00908CA2 /* Application+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F2387210135EF00908CA2 /* Application+Extensions.swift */; };
+		1A1F238A210136F200908CA2 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F2389210136F200908CA2 /* UIImage+Extensions.swift */; };
+		1A1F238C2101375E00908CA2 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F238B2101375E00908CA2 /* UIViewController+Extensions.swift */; };
+		1A1F238E210137BB00908CA2 /* UITabBarController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F238D210137BB00908CA2 /* UITabBarController+Extensions.swift */; };
 		1A8961A7210126D40014D689 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A89619F210126D40014D689 /* UIView+Extensions.swift */; };
 		1A8961A8210126D40014D689 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8961A0210126D40014D689 /* String+Extensions.swift */; };
 		1A8961A9210126D40014D689 /* UIScreen+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8961A1210126D40014D689 /* UIScreen+Extensions.swift */; };
@@ -44,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A1F2387210135EF00908CA2 /* Application+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Application+Extensions.swift"; sourceTree = "<group>"; };
+		1A1F2389210136F200908CA2 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		1A1F238B2101375E00908CA2 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		1A1F238D210137BB00908CA2 /* UITabBarController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Extensions.swift"; sourceTree = "<group>"; };
 		1A89619B210126D40014D689 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		1A89619D210126D40014D689 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		1A89619F210126D40014D689 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
@@ -150,14 +158,18 @@
 		1A89619E210126D40014D689 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				1A89619F210126D40014D689 /* UIView+Extensions.swift */,
-				1A8961A0210126D40014D689 /* String+Extensions.swift */,
-				1A8961A1210126D40014D689 /* UIScreen+Extensions.swift */,
-				1A8961A2210126D40014D689 /* UINavigationController+Extensions.swift */,
-				1A8961A3210126D40014D689 /* URL+Extensions.swift */,
-				1A8961A4210126D40014D689 /* UIScrollView+Extensions.swift */,
+				1A1F2387210135EF00908CA2 /* Application+Extensions.swift */,
 				1A8961A5210126D40014D689 /* Bundle+Extensions.swift */,
 				1A8961A6210126D40014D689 /* Date+Extensions.swift */,
+				1A8961A0210126D40014D689 /* String+Extensions.swift */,
+				1A1F2389210136F200908CA2 /* UIImage+Extensions.swift */,
+				1A8961A2210126D40014D689 /* UINavigationController+Extensions.swift */,
+				1A8961A1210126D40014D689 /* UIScreen+Extensions.swift */,
+				1A8961A4210126D40014D689 /* UIScrollView+Extensions.swift */,
+				1A89619F210126D40014D689 /* UIView+Extensions.swift */,
+				1A1F238D210137BB00908CA2 /* UITabBarController+Extensions.swift */,
+				1A1F238B2101375E00908CA2 /* UIViewController+Extensions.swift */,
+				1A8961A3210126D40014D689 /* URL+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -402,9 +414,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A1F238E210137BB00908CA2 /* UITabBarController+Extensions.swift in Sources */,
 				1A8961A7210126D40014D689 /* UIView+Extensions.swift in Sources */,
 				1A8961AB210126D40014D689 /* URL+Extensions.swift in Sources */,
+				1A1F2388210135EF00908CA2 /* Application+Extensions.swift in Sources */,
 				1A8961AE210126D40014D689 /* Date+Extensions.swift in Sources */,
+				1A1F238C2101375E00908CA2 /* UIViewController+Extensions.swift in Sources */,
+				1A1F238A210136F200908CA2 /* UIImage+Extensions.swift in Sources */,
 				1A8961A9210126D40014D689 /* UIScreen+Extensions.swift in Sources */,
 				1A8961A8210126D40014D689 /* String+Extensions.swift in Sources */,
 				1A8961AA210126D40014D689 /* UINavigationController+Extensions.swift in Sources */,

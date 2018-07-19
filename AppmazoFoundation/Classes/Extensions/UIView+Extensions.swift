@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension UIView {
+public extension UIView {
     /**
      Adds the subview to the parent and attaches constraints to all edges.
      
