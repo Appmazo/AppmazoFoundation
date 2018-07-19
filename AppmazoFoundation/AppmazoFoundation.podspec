@@ -29,12 +29,9 @@ Collection of extensions and tools for common app development techniques.
   s.social_media_url = 'https://twitter.com/appmazo'
 
   s.ios.deployment_target = '11.0'
-
-  s.source_files = 'AppmazoFoundation/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'AppmazoFoundation' => ['AppmazoFoundation/Assets/*.png']
-  # }
+  s.source_files = 'AppmazoFoundation/Classes/**/*.*'
+  s.resources = 'AppmazoFoundation/Assets/**/*.*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
