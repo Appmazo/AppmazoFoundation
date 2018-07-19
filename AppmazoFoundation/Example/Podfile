@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AppmazoFoundation_Example' do
+  pod 'AppmazoFoundation', :path => '../'
+
+  target 'AppmazoFoundation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
