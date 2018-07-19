@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension UINavigationController {
+public extension UINavigationController {
     /**
         Use the current visibleViewController's preferredStatusBarStyle
      */

@@ -6,7 +6,7 @@
 //  Copyright © 2018 Appmazo, LLC. All rights reserved.
 //
 
-extension UIScreen {
+public extension UIScreen {
     /**
      Get the preferred modal width for current device.
      
