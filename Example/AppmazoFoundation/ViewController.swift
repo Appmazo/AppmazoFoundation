@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AppmazoFoundation
 
 class ViewController: UIViewController {
 
