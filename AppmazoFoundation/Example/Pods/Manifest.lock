@@ -1,0 +1,16 @@
+PODS:
+  - AppmazoFoundation (0.1.0)
+
+DEPENDENCIES:
+  - AppmazoFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  AppmazoFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppmazoFoundation: c96de5971ce33ebb8388532cf95d956e6785df8d
+
+PODFILE CHECKSUM: 925a614284e0cf55431c8ab380d5a75c53aeb420
+
+COCOAPODS: 1.5.3
