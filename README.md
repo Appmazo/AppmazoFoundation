@@ -28,30 +28,48 @@ pod 'AppmazoFoundation'
 ## Quick Glimpse
 
 ### Extensions
+
 Application+Extensions
+
 Bundle+Extensions
+
 Date+Extensions
+
 String+Extensions
+
 UIImage+Extensions
+
 UINavigationController+Extensions
+
 UIScreen+Extensions
+
 UIScrollView+Extensions
+
 UITabBarController+Extensions
+
 UIView+Extensions
+
 UIViewController+Extensions
+
 URL+Extensions
 
 ### Helpers
+
 KeychainPasswordItem
 
 ### Protocols
+
 ReuseIdentifiable
+
 Storyboardable
 
 ## Author
 
-Appmazo, jhickman@appmazo.com
+Appmazo LLC, jhickman@appmazo.com
 
 ## License
 
 AppmazoFoundation is available under the MIT license. See the LICENSE file for more info.
+
+## Buy Me A Beer?
+[![Beerpay](https://beerpay.io/Appmazo/AppmazoFoundation/badge.svg?style=beer-square)](https://beerpay.io/Appmazo/AppmazoFoundation)
