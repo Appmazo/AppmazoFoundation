@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/AppmazoFoundation.svg?style=flat)](http://cocoapods.org/pods/AppmazoFoundation.svg)
 [![Platform](https://img.shields.io/cocoapods/p/AppmazoFoundation.svg?style=flat)](http://cocoapods.org/pods/AppmazoFoundation.svg)
 
+# Introduction
+AppmazoFoundation is a simple collection of useful extensions, protocols and more that will help with standard app development and boilerplate code. 
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -19,6 +22,29 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'AppmazoFoundation'
 ```
+
+## Quick Glimpse
+
+### Extensions
+Application+Extensions
+Bundle+Extensions
+Date+Extensions
+String+Extensions
+UIImage+Extensions
+UINavigationController+Extensions
+UIScreen+Extensions
+UIScrollView+Extensions
+UITabBarController+Extensions
+UIView+Extensions
+UIViewController+Extensions
+URL+Extensions
+
+### Helpers
+KeychainPasswordItem
+
+### Protocols
+ReuseIdentifiable
+Storyboardable
 
 ## Author
 
