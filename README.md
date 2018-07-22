@@ -27,3 +27,8 @@ Appmazo, jhickman@appmazo.com
 ## License
 
 AppmazoFoundation is available under the MIT license. See the LICENSE file for more info.
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/Appmazo/AppmazoFoundation/badge.svg?style=beer-square)](https://beerpay.io/Appmazo/AppmazoFoundation)  [![Beerpay](https://beerpay.io/Appmazo/AppmazoFoundation/make-wish.svg?style=flat-square)](https://beerpay.io/Appmazo/AppmazoFoundation?focus=wish)
