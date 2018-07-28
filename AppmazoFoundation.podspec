@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AppmazoFoundation'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Collection of extensions and tools for common app development techniques.'
   s.swift_version    = '4.1'
 

@@ -22,6 +22,7 @@
 		1AB492A921016B9D00011C23 /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB492A521016B9C00011C23 /* ReuseIdentifiable.swift */; };
 		1AB492AA21016B9D00011C23 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB492A621016B9C00011C23 /* Storyboardable.swift */; };
 		1AB492AB21016B9D00011C23 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB492A821016B9D00011C23 /* KeychainPasswordItem.swift */; };
+		1AE21F91210C26460055F435 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE21F90210C26460055F435 /* Array+Extensions.swift */; };
 		2AC22787406D5007CC721921911A7233 /* AppmazoFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2B0107F8BA7BB10A5B3B4FD8C570D8 /* AppmazoFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D3CEF7BE30D05E6E2656E1345182A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		4A810C2576CB0D1E392E04096511EA42 /* Pods-AppmazoFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B403FFE91DA7F75D950E37E40AA02B4E /* Pods-AppmazoFoundation_Example-dummy.m */; };
@@ -56,7 +57,6 @@
 		1A1F238B2101375E00908CA2 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		1A1F238D210137BB00908CA2 /* UITabBarController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Extensions.swift"; sourceTree = "<group>"; };
 		1A89619B210126D40014D689 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		1A89619D210126D40014D689 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		1A89619F210126D40014D689 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		1A8961A0210126D40014D689 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		1A8961A1210126D40014D689 /* UIScreen+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extensions.swift"; sourceTree = "<group>"; };
@@ -69,6 +69,7 @@
 		1AB492A521016B9C00011C23 /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
 		1AB492A621016B9C00011C23 /* Storyboardable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
 		1AB492A821016B9D00011C23 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		1AE21F90210C26460055F435 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		2582137195B879FA537ACAACDF047165 /* Pods-AppmazoFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppmazoFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		27978794100204E7D1AD57383D947AF0 /* Pods_AppmazoFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppmazoFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		469AB4C5B38C11D3316B3CFF2FD87D2A /* Pods-AppmazoFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppmazoFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,7 +158,6 @@
 				1A89619E210126D40014D689 /* Extensions */,
 				1AB492A721016B9D00011C23 /* Helpers */,
 				1AB492A421016B9C00011C23 /* Protocols */,
-				1A89619D210126D40014D689 /* .gitkeep */,
 			);
 			name = Classes;
 			path = AppmazoFoundation/Classes;
@@ -167,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				1A1F2387210135EF00908CA2 /* Application+Extensions.swift */,
+				1AE21F90210C26460055F435 /* Array+Extensions.swift */,
 				1A8961A5210126D40014D689 /* Bundle+Extensions.swift */,
 				1A8961A6210126D40014D689 /* Date+Extensions.swift */,
 				1A8961A0210126D40014D689 /* String+Extensions.swift */,
@@ -447,6 +448,7 @@
 				1A8961AE210126D40014D689 /* Date+Extensions.swift in Sources */,
 				1A1F238C2101375E00908CA2 /* UIViewController+Extensions.swift in Sources */,
 				1A1F238A210136F200908CA2 /* UIImage+Extensions.swift in Sources */,
+				1AE21F91210C26460055F435 /* Array+Extensions.swift in Sources */,
 				1A8961A9210126D40014D689 /* UIScreen+Extensions.swift in Sources */,
 				1AB492A921016B9D00011C23 /* ReuseIdentifiable.swift in Sources */,
 				1A8961A8210126D40014D689 /* String+Extensions.swift in Sources */,
