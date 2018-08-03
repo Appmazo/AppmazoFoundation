@@ -27,6 +27,3 @@ public extension Storyboardable where Self: UIViewController {
         return vc
     }
 }
-
-extension UITableViewCell: ReuseIdentifiable { }
-extension UICollectionViewCell: ReuseIdentifiable { }
