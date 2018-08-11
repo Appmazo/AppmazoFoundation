@@ -19,6 +19,7 @@ jobs:
           command: fastlane scan
           environment:
             SCAN_DEVICE: iPhone 6
+            SCAN_WORKSPACE: Example/AppmazoFoundation.xcworkspace
             SCAN_SCHEME: AppmazoFoundation-Example
 
       # Collect XML test results data to show in the UI,
