@@ -1,6 +1,7 @@
 # AppmazoFoundation
 
 [![Build Status](https://travis-ci.com/Appmazo/AppmazoFoundation.svg?style=flat)](https://travis-ci.com/Appmazo/AppmazoFoundation)
+[![CircleCI](https://circleci.com/gh/Appmazo/AppmazoFoundation.svg?style=svg)](https://circleci.com/gh/Appmazo/AppmazoFoundation)
 [![Version](https://img.shields.io/cocoapods/v/AppmazoFoundation.svg?style=flat)](http://cocoapods.org/pods/AppmazoFoundation.svg)
 [![License](https://img.shields.io/cocoapods/l/AppmazoFoundation.svg?style=flat)](http://cocoapods.org/pods/AppmazoFoundation.svg)
 [![Platform](https://img.shields.io/cocoapods/p/AppmazoFoundation.svg?style=flat)](http://cocoapods.org/pods/AppmazoFoundation.svg)
