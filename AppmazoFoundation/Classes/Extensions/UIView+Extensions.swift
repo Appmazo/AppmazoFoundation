@@ -20,7 +20,7 @@ public extension UIView {
      - important:
      You should only set safeAreaGuide to true if the view is the outermost view of the view controller. Using safeAreaGuide with embedded views will cause problems. *(i.e. UIScrollView's content won't scroll)*
      */
-    public func fillWithSubview(_ view: UIView, usingSafeAreaGuide: Bool = false, belowView: UIView? = nil, aboveView: UIView? = nil) {
+    func fillWithSubview(_ view: UIView, usingSafeAreaGuide: Bool = false, belowView: UIView? = nil, aboveView: UIView? = nil) {
         view.translatesAutoresizingMaskIntoConstraints = false
         
         if let belowView = belowView {
@@ -51,7 +51,7 @@ public extension UIView {
      - view: The view to add.
      - centeredView: The view to center on. It does not need to be the view's superview, but must be within the same superview.
      */
-    public func addSubview(_ view: UIView, centeredWithView centeredView: UIView) {
+    func addSubview(_ view: UIView, centeredWithView centeredView: UIView) {
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         
@@ -62,7 +62,7 @@ public extension UIView {
     /**
      Shakes the view to signal an error to the user.
      */
-    public func shake() {
+    func shake() {
         let midX = center.x
         let midY = center.y
         
@@ -81,10 +81,10 @@ public extension UIView {
      - parameters activityIndicatorStyle: The style for the UIActivityIndicatorView.
      */
     static var activityIndicatorView: UIActivityIndicatorView?
-    public func replaceWithActivityIndicator(activityIndicatorStyle: UIActivityIndicatorViewStyle) {
+    func replaceWithActivityIndicator(activityIndicatorStyle: UIActivityIndicatorView.Style) {
         isHidden = true
         
-        let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: activityIndicatorStyle)
+        let activityIndicatorView = UIActivityIndicatorView(style: activityIndicatorStyle)
         superview?.addSubview(activityIndicatorView, centeredWithView: self)
         activityIndicatorView.startAnimating()
         UIView.activityIndicatorView = activityIndicatorView
@@ -93,7 +93,7 @@ public extension UIView {
     /**
      Hides the view's UIActivityIndicatorView.
      */
-    public func hideActivityIndicator() {
+    func hideActivityIndicator() {
         UIView.activityIndicatorView?.stopAnimating()
         UIView.activityIndicatorView?.removeFromSuperview()
         isHidden = false
@@ -102,7 +102,7 @@ public extension UIView {
     /**
      Applies a corner radius that will also clip the view to the bounds.
      */
-    public func roundCorners(withRadius radius: CGFloat) {
+    func roundCorners(withRadius radius: CGFloat) {
         layer.cornerRadius = radius
         clipsToBounds = true
     }
@@ -110,7 +110,7 @@ public extension UIView {
     /**
      Applies a corner radius that will clip the view as a circle.
      */
-    public func cropAsCircle() {
+    func cropAsCircle() {
         layer.cornerRadius = bounds.width / 2.0
         clipsToBounds = true
     }
@@ -121,7 +121,7 @@ public extension UIView {
      - width: The width of the border.
      - color: The color of the border.
      */
-    public func addBorder(withWidth width: CGFloat, color: UIColor) {
+    func addBorder(withWidth width: CGFloat, color: UIColor) {
         layer.borderWidth = width
         layer.borderColor = color.cgColor
     }
@@ -129,7 +129,7 @@ public extension UIView {
     /**
      Removes the border.
      */
-    public func removeBorder() {
+    func removeBorder() {
         layer.borderWidth = 0.0
         layer.borderColor = UIColor.clear.cgColor
     }
@@ -137,7 +137,7 @@ public extension UIView {
     /**
      Sets the border color.
      */
-    public var borderColor: UIColor? {
+    var borderColor: UIColor? {
         get {
             return UIColor(cgColor: layer.borderColor!)
         }
@@ -149,7 +149,7 @@ public extension UIView {
     /**
      Sets the left border width.
      */
-    public var leftBorderWidth: CGFloat {
+    var leftBorderWidth: CGFloat {
         get {
             return 0.0   // Just to satisfy property
         }
@@ -169,7 +169,7 @@ public extension UIView {
     /**
      Sets the top border width.
      */
-    public var topBorderWidth: CGFloat {
+    var topBorderWidth: CGFloat {
         get {
             return 0.0   // Just to satisfy property
         }
@@ -189,7 +189,7 @@ public extension UIView {
     /**
      Sets the right border width.
      */
-    public var rightBorderWidth: CGFloat {
+    var rightBorderWidth: CGFloat {
         get {
             return 0.0   // Just to satisfy property
         }
@@ -209,7 +209,7 @@ public extension UIView {
     /**
      Sets the bottom border width.
      */
-    public var bottomBorderWidth: CGFloat {
+    var bottomBorderWidth: CGFloat {
         get {
             return 0.0   // Just to satisfy property
         }
